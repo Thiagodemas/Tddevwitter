@@ -8,7 +8,7 @@ const Layout: React.FC = () => {
     <Container>
         <Wrapper>
             {/* <MenuBar/> */}
-            <Main/>
+            <Main />
             {/* <SideBar/> */}
         </Wrapper>
     </Container>

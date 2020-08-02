@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components';
 
 export default createGlobalStyle`
 
-    *{
+    * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -10,7 +10,7 @@ export default createGlobalStyle`
         color: var(--white);
     }
 
-    html, border-style, #root {
+    html, body, #root {
         max-height: 100vh;
         max-width: 100vw;
 
