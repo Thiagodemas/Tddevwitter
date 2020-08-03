@@ -11,20 +11,15 @@ import {
   CakeIcon,
   Followage,
   EditButton,
-  ImgBanner
+  ImgBanner,
 } from './styles';
 
 const ProfilePage: React.FC = () => {
   return (
     <Container>
-      <Banner >
-      <ImgBanner
-            src="https://image.freepik.com/fotos-gratis/user-people-network-circuit-board-conexao-conexao-tecnologia_1379-882.jpg"
-            alt="Thiago Demas"
-          />
-        <Avatar  src="https://avatars0.githubusercontent.com/u/6172978?s=460&u=429ed7767e15d8e5202b1ea7f92b585cd5e2294f&v=4"
-            alt="Thiago Demas">
-        </Avatar>
+      <Banner>
+        <ImgBanner src="https://image.freepik.com/fotos-gratis/user-people-network-circuit-board-conexao-conexao-tecnologia_1379-882.jpg" />
+        <Avatar src="https://avatars0.githubusercontent.com/u/6172978?s=460&u=429ed7767e15d8e5202b1ea7f92b585cd5e2294f&v=4"></Avatar>
       </Banner>
 
       <ProfileData>
@@ -34,9 +29,9 @@ const ProfilePage: React.FC = () => {
         <h2>@thiagodemas</h2>
 
         <p>
-          Web Developer, Github:{' '}
+        Desenvolvedor Full-Stack,  
           <a href="https://github.com/Thiagodemas" target="_black">
-            @thiagodemas
+          Github: Thiagodemas
           </a>
         </p>
 

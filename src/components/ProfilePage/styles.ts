@@ -61,6 +61,7 @@ export const ProfileData = styled.div`
     > a {
       text-decoration: none;
       color: var(--twitter);
+      margin-left: 5px;
     }
   }
   > ul {
