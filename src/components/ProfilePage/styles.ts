@@ -20,9 +20,15 @@ export const Banner = styled.div`
   height: min(33vw, 199px);
   background: var(--twitter);
   position: relative;
-`;
 
-export const Avatar = styled.div`
+`;
+export const ImgBanner = styled.img`
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position:absolute;
+`;
+export const Avatar = styled.img`
   width: max(45px, min(135px, 22vw));
   height: max(45px, min(135px, 22vw));
   border: 3.75px solid var(--primary);
@@ -31,6 +37,8 @@ export const Avatar = styled.div`
   position: absolute;
   bottom: max(-60px, -10vw);
   left: 15px;
+  position: absolute;
+  
 `;
 
 export const ProfileData = styled.div`
